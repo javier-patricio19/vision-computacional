@@ -1,7 +1,7 @@
 
 import cv2
 import numpy as np
-  
+
   
 # leer la imagen
 img = cv2.imread("img.jpg")

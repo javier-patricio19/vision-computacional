@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.resize(cv2.imread("img2.jpeg"), (200,200), interpolation=cv2.INTER_AREA)
+img = cv2.resize(cv2.imread("practica1-4/img2.jpeg"), (200,200), interpolation=cv2.INTER_AREA)
 img2 = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 cv2.imshow("img", img2)
 H,S,V = cv2.split(img)
